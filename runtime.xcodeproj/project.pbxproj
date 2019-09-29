@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312F1CB723331429003FC236 /* baseTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312F1CB623331429003FC236 /* baseTabbarController.m */; };
+		312F1CBA2333146F003FC236 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312F1CB92333146F003FC236 /* NavigationController.m */; };
+		312F1CBD233314B6003FC236 /* MBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 312F1CBC233314B6003FC236 /* MBScrollView.m */; };
 		3152613D2331C40100090E61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3152613C2331C40100090E61 /* AppDelegate.m */; };
 		315261402331C40100090E61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3152613F2331C40100090E61 /* ViewController.m */; };
 		315261432331C40100090E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315261412331C40100090E61 /* Main.storyboard */; };
@@ -40,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		312F1CB523331429003FC236 /* baseTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baseTabbarController.h; sourceTree = "<group>"; };
+		312F1CB623331429003FC236 /* baseTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseTabbarController.m; sourceTree = "<group>"; };
+		312F1CB82333146F003FC236 /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		312F1CB92333146F003FC236 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		312F1CBB233314B6003FC236 /* MBScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBScrollView.h; sourceTree = "<group>"; };
+		312F1CBC233314B6003FC236 /* MBScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBScrollView.m; sourceTree = "<group>"; };
 		315261382331C40100090E61 /* runtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3152613B2331C40100090E61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3152613C2331C40100090E61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +102,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		312F1CB3233313A2003FC236 /* Clasess */ = {
+			isa = PBXGroup;
+			children = (
+				312F1CB4233313EE003FC236 /* BasViewController */,
+			);
+			path = Clasess;
+			sourceTree = "<group>";
+		};
+		312F1CB4233313EE003FC236 /* BasViewController */ = {
+			isa = PBXGroup;
+			children = (
+				312F1CB523331429003FC236 /* baseTabbarController.h */,
+				312F1CB623331429003FC236 /* baseTabbarController.m */,
+				312F1CB82333146F003FC236 /* NavigationController.h */,
+				312F1CB92333146F003FC236 /* NavigationController.m */,
+				312F1CBB233314B6003FC236 /* MBScrollView.h */,
+				312F1CBC233314B6003FC236 /* MBScrollView.m */,
+			);
+			path = BasViewController;
+			sourceTree = "<group>";
+		};
 		3152612F2331C40100090E61 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				3152616D2332063400090E61 /* MBDrawer */,
+				312F1CB3233313A2003FC236 /* Clasess */,
 				3152613B2331C40100090E61 /* AppDelegate.h */,
 				3152613C2331C40100090E61 /* AppDelegate.m */,
 				3152613E2331C40100090E61 /* ViewController.h */,
@@ -296,13 +327,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3152617C23322B6100090E61 /* MBInteractiveTransition.m in Sources */,
+				312F1CBD233314B6003FC236 /* MBScrollView.m in Sources */,
 				315261402331C40100090E61 /* ViewController.m in Sources */,
 				315261822332377E00090E61 /* UIViewController+MBDrawer.m in Sources */,
 				3152614B2331C40300090E61 /* main.m in Sources */,
 				31526173233206BD00090E61 /* MBDrawerConfiguration.m in Sources */,
 				3152613D2331C40100090E61 /* AppDelegate.m in Sources */,
 				3152617F233231D800090E61 /* MBDrawerAnimator.m in Sources */,
+				312F1CBA2333146F003FC236 /* NavigationController.m in Sources */,
 				315261792332132E00090E61 /* MBDrawerTransition.m in Sources */,
+				312F1CB723331429003FC236 /* baseTabbarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
